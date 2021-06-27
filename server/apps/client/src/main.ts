@@ -3,6 +3,6 @@ import { ClientModule } from './client.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(ClientModule);
-  await app.listen(3000);
+  await app.listen(3200);
 }
 bootstrap();
